@@ -1,0 +1,53 @@
+body {
+  background-color: #a2af9b;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #2f3e3c;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: monospace;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+  color: blue;
+}
+a:focus {
+  border: 2px solid blue;
+}
+a:active {
+  color: red;
+}
+.container {
+  background-color: #e1e9e5;
+  min-width: 300px;
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+.todo-item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
