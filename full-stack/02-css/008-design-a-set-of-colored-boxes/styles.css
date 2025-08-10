@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+}
+
+.color-box {
+  display: inline-block;
+  width: 90px;
+  height: 100px;
+}
+.color1 {
+  background-color: #b8c1b5;
+}
+.color2 {
+  background-color: rgb(0, 145, 67);
+}
+.color3 {
+  background-color: red;
+}
+.color4 {
+  background-color: hsl(144, 80%, 67%);
+}
+.color5 {
+  background-color: rgb(255, 145, 67);
+}
