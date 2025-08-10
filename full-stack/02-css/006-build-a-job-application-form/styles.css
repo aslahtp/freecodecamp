@@ -1,0 +1,57 @@
+body {
+    background-color: #E3FDFD;
+  }
+  .container {
+    padding: 40px;
+    max-width: 400px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  button:hover {
+    background-color: rgb(64, 62, 62);
+    color: white;
+  }
+  input:focus, textarea:focus {
+    border-color: #71C9CE;
+    outline: none;
+    box-shadow: 0 0 5px #71C9CE;
+  }
+  input,label, select, textarea, button {
+    display: block;
+    margin: 10px;
+    width: 100%;
+  }
+  .radio-group input[type="radio"]:checked {
+    border: 1px solid red;
+    background-color: grey;
+    box-shadow: 0 1px 1px gray; 
+  }
+  input[type="radio"] {
+    display: inline;
+  }
+  .radio-group {
+    display: block;
+    margin: 10px;
+    width: 100%;
+  }
+  fieldset {
+    border: 1px solid;
+    padding: 0;
+    margin: 10px;
+    width: 100%;
+  }
+  input:invalid, select:invalid, textarea:invalid {
+    border: 2px solid red;
+  }
+  input:valid, select:valid, textarea:valid {
+    border: 2px solid green;
+  }
+  input[type="radio"]:checked + label {
+    color: #71C9CE;
+  }
+  input:first-of-type {
+  
+    border-left: 5px solid #71C9CE;
+  }
+  
